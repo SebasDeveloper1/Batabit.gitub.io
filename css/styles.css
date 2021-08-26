@@ -180,7 +180,7 @@ main {
   max-width: 300px;
   height: 250px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .currency-table-container .currency-table {
@@ -245,18 +245,19 @@ main {
 }
 
 .main-currency-table .currency-table__date {
-  width: 80%;
-  min-width: 200px;
-  max-width: 270px;
-  height: 35px;
-  border-radius: 8px;
+  width: 190px;
+  height: 30px;
   background-color: var(--soft-orange);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.currency-table__date p {
   font-size: 1.2rem;
   line-height: 1.5rem;
-  margin: 0 auto;
+  color: var(--warm-black);
+  font-weight: 400;
 }
 
 /* Table commissions */
@@ -285,7 +286,7 @@ main {
   max-width: 300px;
   height: 250px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .commissions-table-container .commissions-table {
@@ -332,16 +333,17 @@ main {
 }
 
 .main-commissions-table .commissions-table__date {
-  width: 80%;
-  min-width: 200px;
-  max-width: 270px;
-  height: 35px;
-  border-radius: 8px;
+  width: 190px;
+  height: 30px;
   background-color: var(--soft-blue);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.commissions-table__date p {
   font-size: 1.2rem;
   line-height: 1.5rem;
-  margin: 0 auto;
+  color: var(--warm-black);
+  font-weight: 400;
 }
