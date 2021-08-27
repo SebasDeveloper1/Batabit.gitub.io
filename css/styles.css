@@ -152,6 +152,14 @@ main {
   margin-bottom: 48px;
 }
 
+.main-tables-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 /* Table currency */
 .main-currency-table {
   width: 70%;
@@ -169,8 +177,6 @@ main {
   line-height: 2.3rem;
   font-weight: bold;
   color: var(--bitcoin-orange);
-  text-align: left;
-  margin-left: 10px;
   margin-bottom: 15px;
 }
 
@@ -186,6 +192,8 @@ main {
 .currency-table-container .currency-table {
   width: 100%;
   height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .currency-table td {
@@ -275,8 +283,6 @@ main {
   line-height: 2.3rem;
   font-weight: bold;
   color: var(--secondary-blue);
-  text-align: left;
-  margin-left: 10px;
   margin-bottom: 15px;
 }
 
@@ -292,6 +298,8 @@ main {
 .commissions-table-container .commissions-table {
   width: 100%;
   height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .commissions-table td {
@@ -346,4 +354,126 @@ main {
   line-height: 1.5rem;
   color: var(--warm-black);
   font-weight: 400;
+}
+
+/* section number two (product detail) */
+.main-product-detail-container {
+  position: relative;
+  width: 100%;
+  min-width: 320px; /*pixelage minimo de los celulares*/
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+
+.main-product-detail-container__icon-potato {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -12px;
+  left: calc(50% - 20px);
+  background-image: url(../assets/icons/batata.svg);
+}
+
+.product-detail-txt-container {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 44px;
+  text-align: center;
+}
+.product-detail-txt-container__title {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  font-weight: bold;
+  color: var(--just-white);
+}
+
+.product-detail-txt-container__paragraph {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  color: #808080;
+}
+
+.product-detail-cards-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-detail-card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 450px; /*medida original 400px*/
+  min-height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail-card__icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-detail-card__icon--clock {
+  background-image: url(../assets/icons/clock.svg);
+}
+
+.product-detail-card__icon--eye {
+  background-image: url(../assets/icons/eye.svg);
+}
+
+.product-detail-card__icon--dolar-sign {
+  background-image: url(../assets/icons/dollar-sign.svg);
+}
+
+.product-detail-card__icon--check-circle {
+  background-image: url(../assets/icons/check-circle.svg);
+}
+
+.product-detail-card__title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+  margin-bottom: 15px;
+}
+
+.product-detail-card__paragraph {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+/* section number three (bitcoin img) */
+.main-bitcoin-img-container {
+  width: 100%;
+  min-width: 320px;
+  height: 70vh;
+  background-image: url(../assets/img/bitcoinbaby2x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.main-bitcoin-img-container__title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+  padding-top: 64px;
 }
