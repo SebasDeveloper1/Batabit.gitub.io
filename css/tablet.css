@@ -1,0 +1,12 @@
+.main-tables-container{
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+.main-currency-table {
+    margin-bottom: 0;
+  }
+
+.plans-cards-container-slider{
+   justify-content: center;
+}
